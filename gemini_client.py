@@ -2,7 +2,7 @@ import json
 import os
 import time
 from google import genai
-from dotenv import load_dotenv, GEMINI_API_KEY
+from dotenv import load_dotenv
 from config import MODEL, NOTES_PROMPT, NOTES_SCHEMA, FLASHCARD_PROMPT, FLASHCARD_SCHEMA
 
 

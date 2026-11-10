@@ -1,5 +1,5 @@
 import streamlit as st
-from gemini_client import get_client, extract_notes, log, make_flashcards
+from gemini_client import get_client, extract_notes, make_flashcards
 from config import LANGUAGES, LEVELS
 from helpers import youtube_id
 

@@ -10,7 +10,7 @@ load_dotenv()
 
 def get_client():
     if(os.getenv("GEMINI_API_KEY")):
-        return genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+        return genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
         
     else:
         return None
